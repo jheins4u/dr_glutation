@@ -1,0 +1,22 @@
+DR. GLUTATIÓN · V11 ASSETS + CHAT DEMO
+======================================
+
+1) Para ver el demo de forma recomendada en Windows:
+   - Doble clic en INICIAR_DEMO.bat
+   - Se abrirá http://127.0.0.1:8000/ en el navegador.
+   - Se recomienda servir por localhost porque los reproductores externos (YouTube) funcionan mejor que abriendo index.html con file://.
+
+2) Imágenes:
+   - Todas están en /assets/ como placeholders SVG.
+   - Cada placeholder indica su tamaño recomendado en píxeles.
+   - Ver /assets/README_ASSETS.txt.
+
+3) Chat:
+   - El chat visible es un demo local funcional, sin API.
+   - Responde a temas básicos del contenido y sirve para presentar el flujo al cliente.
+   - Para enlazar un agente real a tu cuenta de OpenAI, revisa /chatkit/README_CHATKIT.md.
+
+4) Videos:
+   - Permanecen embebidos dentro de la landing.
+   - Requieren conexión a Internet.
+   - Si se abre index.html directamente y YouTube muestra un error de reproductor, usa INICIAR_DEMO.bat.
